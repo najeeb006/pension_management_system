@@ -1,0 +1,11 @@
+version: 1.0
+Resources:
+  - TargetService:
+      Type: AWS::ECS::Service
+      Properties:
+        TaskDefinition: "arn:aws:ecs:ap-south-1:555918697305:task-definition/pensioner-detail-microservice:32"
+        LoadBalancerInfo:
+          ContainerName: "pensioner-detail-microservice"
+          ContainerPort: "80"
+
+        PlatformVersion: "LATEST"

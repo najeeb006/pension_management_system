@@ -1,0 +1,323 @@
+2022-07-25 09:26:29.072  INFO [validationMicroservice,,] 5280 --- [restartedMain] PensionValidationMicroserviceApplication : Starting PensionValidationMicroserviceApplication using Java 17.0.2 on DESKTOP-IEDHDED with PID 5280 (C:\PROJECT_FSE\pension-validation-microservice\target\classes started by USER in C:\PROJECT_FSE\pension-validation-microservice)
+2022-07-25 09:26:29.091  INFO [validationMicroservice,,] 5280 --- [restartedMain] PensionValidationMicroserviceApplication : No active profile set, falling back to 1 default profile: "default"
+2022-07-25 09:26:29.228  INFO [validationMicroservice,,] 5280 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-07-25 09:26:29.229  INFO [validationMicroservice,,] 5280 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-07-25 09:26:30.984  INFO [validationMicroservice,,] 5280 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-07-25 09:26:31.012  INFO [validationMicroservice,,] 5280 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 12 ms. Found 0 JPA repository interfaces.
+2022-07-25 09:26:31.584  INFO [validationMicroservice,,] 5280 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=9f0eb888-e2d4-3bcd-bce4-f201d594dbe9
+2022-07-25 09:26:33.611  INFO [validationMicroservice,,] 5280 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8000 (http)
+2022-07-25 09:26:33.643  INFO [validationMicroservice,,] 5280 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-25 09:26:33.644  INFO [validationMicroservice,,] 5280 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-25 09:26:33.911  INFO [validationMicroservice,,] 5280 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-07-25 09:26:33.912  INFO [validationMicroservice,,] 5280 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4681 ms
+2022-07-25 09:26:34.024  INFO [validationMicroservice,,] 5280 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-07-25 09:26:34.422  INFO [validationMicroservice,,] 5280 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-07-25 09:26:34.441  INFO [validationMicroservice,,] 5280 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testDB'
+2022-07-25 09:26:35.313  INFO [validationMicroservice,,] 5280 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-07-25 09:26:35.444  INFO [validationMicroservice,,] 5280 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.9.Final
+2022-07-25 09:26:35.819  INFO [validationMicroservice,,] 5280 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-07-25 09:26:36.066  INFO [validationMicroservice,,] 5280 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-07-25 09:26:36.445  INFO [validationMicroservice,,] 5280 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-07-25 09:26:36.461  INFO [validationMicroservice,,] 5280 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-07-25 09:26:36.728  WARN [validationMicroservice,,] 5280 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-07-25 09:26:36.865  WARN [validationMicroservice,,] 5280 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2022-07-25 09:26:39.369  INFO [validationMicroservice,,] 5280 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8000 (http) with context path ''
+2022-07-25 09:26:39.659  INFO [validationMicroservice,,] 5280 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2022-07-25 09:26:39.694  INFO [validationMicroservice,,] 5280 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2022-07-25 09:26:39.710  INFO [validationMicroservice,,] 5280 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2022-07-25 09:26:39.922  INFO [validationMicroservice,,] 5280 --- [restartedMain] PensionValidationMicroserviceApplication : Started PensionValidationMicroserviceApplication in 12.278 seconds (JVM running for 25.985)
+2022-07-25 09:27:13.897  INFO [validationMicroservice,bc7982795b3b73b7,52ce23c4d3ca81a4] 5280 --- [http-nio-8000-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-25 09:27:13.898  INFO [validationMicroservice,bc7982795b3b73b7,52ce23c4d3ca81a4] 5280 --- [http-nio-8000-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-07-25 09:27:13.899  INFO [validationMicroservice,bc7982795b3b73b7,52ce23c4d3ca81a4] 5280 --- [http-nio-8000-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-07-25 09:27:14.163  INFO [validationMicroservice,bc7982795b3b73b7,52ce23c4d3ca81a4] 5280 --- [http-nio-8000-exec-1] c.c.p.controller.ValidationController    : validatePensioner has started
+2022-07-25 09:27:14.193  INFO [validationMicroservice,bc7982795b3b73b7,52ce23c4d3ca81a4] 5280 --- [http-nio-8000-exec-1] c.c.p.service.PensionValidationService   : STARTED - statusCode 123456789013
+2022-07-25 09:27:14.193  INFO [validationMicroservice,bc7982795b3b73b7,52ce23c4d3ca81a4] 5280 --- [http-nio-8000-exec-1] c.c.p.service.PensionValidationService   : STARTED - inputBankCharge
+2022-07-25 09:27:14.193  INFO [validationMicroservice,bc7982795b3b73b7,52ce23c4d3ca81a4] 5280 --- [http-nio-8000-exec-1] c.c.p.service.PensionValidationService   : END - inputBankCharge - public - true
+2022-07-25 09:27:14.193  INFO [validationMicroservice,bc7982795b3b73b7,52ce23c4d3ca81a4] 5280 --- [http-nio-8000-exec-1] c.c.p.service.PensionValidationService   : STARTED - calculatePension
+2022-07-25 09:27:14.193  INFO [validationMicroservice,bc7982795b3b73b7,52ce23c4d3ca81a4] 5280 --- [http-nio-8000-exec-1] c.c.p.service.PensionValidationService   : END - calculatePension true 27000.0 27000.0
+2022-07-25 09:27:14.194  INFO [validationMicroservice,bc7982795b3b73b7,52ce23c4d3ca81a4] 5280 --- [http-nio-8000-exec-1] c.c.p.service.PensionValidationService   : END - statusCode - success 10
+2022-07-25 09:27:14.194  INFO [validationMicroservice,bc7982795b3b73b7,52ce23c4d3ca81a4] 5280 --- [http-nio-8000-exec-1] c.c.p.controller.ValidationController    : validatePensioner has ended
+2022-07-25 09:28:21.132  INFO [validationMicroservice,e95c1dfc4e75477c,d029e72f409dd99d] 5280 --- [http-nio-8000-exec-2] c.c.p.controller.ValidationController    : validatePensioner has started
+2022-07-25 09:28:21.172 ERROR [validationMicroservice,e95c1dfc4e75477c,d029e72f409dd99d] 5280 --- [http-nio-8000-exec-2] c.c.p.controller.ValidationController    : Pension amount is wrong
+2022-07-25 09:28:21.173  WARN [validationMicroservice,e95c1dfc4e75477c,d029e72f409dd99d] 5280 --- [http-nio-8000-exec-2] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.cognizant.pensionvalidationmicroservice.exception.PensionValidationException: pension amount is incorrect]
+2022-07-25 09:28:21.192 ERROR [validationMicroservice,e95c1dfc4e75477c,d029e72f409dd99d] 5280 --- [http-nio-8000-exec-2] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Circular view path [pensionStatus]: would dispatch back to the current handler URL [/pensionStatus] again. Check your ViewResolver setup! (Hint: This may be the result of an unspecified view, due to default view name generation.)] with root cause
+
+javax.servlet.ServletException: Circular view path [pensionStatus]: would dispatch back to the current handler URL [/pensionStatus] again. Check your ViewResolver setup! (Hint: This may be the result of an unspecified view, due to default view name generation.)
+	at org.springframework.web.servlet.view.InternalResourceView.prepareForRendering(InternalResourceView.java:210) ~[spring-webmvc-5.3.21.jar:5.3.21]
+	at org.springframework.web.servlet.view.InternalResourceView.renderMergedOutputModel(InternalResourceView.java:148) ~[spring-webmvc-5.3.21.jar:5.3.21]
+	at org.springframework.web.servlet.view.AbstractView.render(AbstractView.java:316) ~[spring-webmvc-5.3.21.jar:5.3.21]
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1401) ~[spring-webmvc-5.3.21.jar:5.3.21]
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1145) ~[spring-webmvc-5.3.21.jar:5.3.21]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1084) ~[spring-webmvc-5.3.21.jar:5.3.21]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963) ~[spring-webmvc-5.3.21.jar:5.3.21]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.3.21.jar:5.3.21]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909) ~[spring-webmvc-5.3.21.jar:5.3.21]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:681) ~[tomcat-embed-core-9.0.64.jar:4.0.FR]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.3.21.jar:5.3.21]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764) ~[tomcat-embed-core-9.0.64.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.64.jar:9.0.64]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.3.21.jar:5.3.21]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.21.jar:5.3.21]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.3.21.jar:5.3.21]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.21.jar:5.3.21]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
+	at org.springframework.cloud.sleuth.instrument.web.servlet.TracingFilter.doFilter(TracingFilter.java:68) ~[spring-cloud-sleuth-instrumentation-3.1.3.jar:3.1.3]
+	at org.springframework.cloud.sleuth.autoconfig.instrument.web.TraceWebServletConfiguration$LazyTracingFilter.doFilter(TraceWebServletConfiguration.java:131) ~[spring-cloud-sleuth-autoconfigure-3.1.3.jar:3.1.3]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.3.21.jar:5.3.21]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.21.jar:5.3.21]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
+	at org.springframework.cloud.sleuth.instrument.web.tomcat.TraceValve.invoke(TraceValve.java:103) ~[spring-cloud-sleuth-instrumentation-3.1.3.jar:3.1.3]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1787) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+
+2022-07-25 09:28:21.648  INFO [validationMicroservice,0c3b46b6125c8480,7ff564684fd1b627] 5280 --- [http-nio-8000-exec-3] c.c.p.controller.ValidationController    : validatePensioner has started
+2022-07-25 09:28:21.671  INFO [validationMicroservice,0c3b46b6125c8480,7ff564684fd1b627] 5280 --- [http-nio-8000-exec-3] c.c.p.service.PensionValidationService   : STARTED - statusCode 123456789013
+2022-07-25 09:28:21.671  INFO [validationMicroservice,0c3b46b6125c8480,7ff564684fd1b627] 5280 --- [http-nio-8000-exec-3] c.c.p.service.PensionValidationService   : STARTED - inputBankCharge
+2022-07-25 09:28:21.671  INFO [validationMicroservice,0c3b46b6125c8480,7ff564684fd1b627] 5280 --- [http-nio-8000-exec-3] c.c.p.service.PensionValidationService   : END - inputBankCharge - public - true
+2022-07-25 09:28:21.671  INFO [validationMicroservice,0c3b46b6125c8480,7ff564684fd1b627] 5280 --- [http-nio-8000-exec-3] c.c.p.service.PensionValidationService   : STARTED - calculatePension
+2022-07-25 09:28:21.672  INFO [validationMicroservice,0c3b46b6125c8480,7ff564684fd1b627] 5280 --- [http-nio-8000-exec-3] c.c.p.service.PensionValidationService   : END - calculatePension true 27000.0 27000.0
+2022-07-25 09:28:21.672  INFO [validationMicroservice,0c3b46b6125c8480,7ff564684fd1b627] 5280 --- [http-nio-8000-exec-3] c.c.p.service.PensionValidationService   : END - statusCode - success 10
+2022-07-25 09:28:21.672  INFO [validationMicroservice,0c3b46b6125c8480,7ff564684fd1b627] 5280 --- [http-nio-8000-exec-3] c.c.p.controller.ValidationController    : validatePensioner has ended
+2022-07-25 09:29:38.263  INFO [validationMicroservice,444177f94e49ae8d,1bc8efefd370cda2] 5280 --- [http-nio-8000-exec-5] c.c.p.controller.ValidationController    : validatePensioner has started
+2022-07-25 09:29:38.301  INFO [validationMicroservice,444177f94e49ae8d,1bc8efefd370cda2] 5280 --- [http-nio-8000-exec-5] c.c.p.service.PensionValidationService   : STARTED - statusCode 123456789013
+2022-07-25 09:29:38.301  INFO [validationMicroservice,444177f94e49ae8d,1bc8efefd370cda2] 5280 --- [http-nio-8000-exec-5] c.c.p.service.PensionValidationService   : STARTED - inputBankCharge
+2022-07-25 09:29:38.301  INFO [validationMicroservice,444177f94e49ae8d,1bc8efefd370cda2] 5280 --- [http-nio-8000-exec-5] c.c.p.service.PensionValidationService   : END - inputBankCharge - public - true
+2022-07-25 09:29:38.301  INFO [validationMicroservice,444177f94e49ae8d,1bc8efefd370cda2] 5280 --- [http-nio-8000-exec-5] c.c.p.service.PensionValidationService   : STARTED - calculatePension
+2022-07-25 09:29:38.302  INFO [validationMicroservice,444177f94e49ae8d,1bc8efefd370cda2] 5280 --- [http-nio-8000-exec-5] c.c.p.service.PensionValidationService   : END - calculatePension true 27000.0 27000.0
+2022-07-25 09:29:38.302  INFO [validationMicroservice,444177f94e49ae8d,1bc8efefd370cda2] 5280 --- [http-nio-8000-exec-5] c.c.p.service.PensionValidationService   : END - statusCode - success 10
+2022-07-25 09:29:38.302  INFO [validationMicroservice,444177f94e49ae8d,1bc8efefd370cda2] 5280 --- [http-nio-8000-exec-5] c.c.p.controller.ValidationController    : validatePensioner has ended
+2022-07-25 09:33:18.395  INFO [validationMicroservice,a82f7317bf27b674,2cf909721d3ef700] 5280 --- [http-nio-8000-exec-7] c.c.p.controller.ValidationController    : validatePensioner has started
+2022-07-25 09:33:18.431  INFO [validationMicroservice,a82f7317bf27b674,2cf909721d3ef700] 5280 --- [http-nio-8000-exec-7] c.c.p.service.PensionValidationService   : STARTED - statusCode 123456789013
+2022-07-25 09:33:18.432  INFO [validationMicroservice,a82f7317bf27b674,2cf909721d3ef700] 5280 --- [http-nio-8000-exec-7] c.c.p.service.PensionValidationService   : STARTED - inputBankCharge
+2022-07-25 09:33:18.432  INFO [validationMicroservice,a82f7317bf27b674,2cf909721d3ef700] 5280 --- [http-nio-8000-exec-7] c.c.p.service.PensionValidationService   : END - inputBankCharge - public - true
+2022-07-25 09:33:18.432  INFO [validationMicroservice,a82f7317bf27b674,2cf909721d3ef700] 5280 --- [http-nio-8000-exec-7] c.c.p.service.PensionValidationService   : STARTED - calculatePension
+2022-07-25 09:33:18.432  INFO [validationMicroservice,a82f7317bf27b674,2cf909721d3ef700] 5280 --- [http-nio-8000-exec-7] c.c.p.service.PensionValidationService   : END - calculatePension true 27000.0 27000.0
+2022-07-25 09:33:18.433  INFO [validationMicroservice,a82f7317bf27b674,2cf909721d3ef700] 5280 --- [http-nio-8000-exec-7] c.c.p.service.PensionValidationService   : END - statusCode - success 10
+2022-07-25 09:33:18.433  INFO [validationMicroservice,a82f7317bf27b674,2cf909721d3ef700] 5280 --- [http-nio-8000-exec-7] c.c.p.controller.ValidationController    : validatePensioner has ended
+2022-07-25 09:45:29.062  INFO [validationMicroservice,,] 5500 --- [main] c.c.p.c.test.ValidationControllerTest    : Starting ValidationControllerTest using Java 17.0.2 on DESKTOP-IEDHDED with PID 5500 (started by USER in C:\PROJECT_FSE\pension-validation-microservice)
+2022-07-25 09:45:29.065  INFO [validationMicroservice,,] 5500 --- [main] c.c.p.c.test.ValidationControllerTest    : No active profile set, falling back to 1 default profile: "default"
+2022-07-25 09:45:30.338  INFO [validationMicroservice,,] 5500 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-07-25 09:45:30.361  INFO [validationMicroservice,,] 5500 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 11 ms. Found 0 JPA repository interfaces.
+2022-07-25 09:45:30.753  INFO [validationMicroservice,,] 5500 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=4fe2ca6f-6212-37ce-b638-d616d49775e1
+2022-07-25 09:45:31.555  INFO [validationMicroservice,,] 5500 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-07-25 09:45:31.855  INFO [validationMicroservice,,] 5500 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-07-25 09:45:31.996  INFO [validationMicroservice,,] 5500 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-07-25 09:45:32.129  INFO [validationMicroservice,,] 5500 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.9.Final
+2022-07-25 09:45:32.424  INFO [validationMicroservice,,] 5500 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-07-25 09:45:32.696  INFO [validationMicroservice,,] 5500 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-07-25 09:45:33.002  INFO [validationMicroservice,,] 5500 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-07-25 09:45:33.015  INFO [validationMicroservice,,] 5500 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-07-25 09:45:33.317  WARN [validationMicroservice,,] 5500 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-07-25 09:45:33.494  INFO [validationMicroservice,,] 5500 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testDB'
+2022-07-25 09:45:35.782  INFO [validationMicroservice,,] 5500 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2022-07-25 09:45:35.782  INFO [validationMicroservice,,] 5500 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2022-07-25 09:45:35.784  INFO [validationMicroservice,,] 5500 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 2 ms
+2022-07-25 09:45:36.591  INFO [validationMicroservice,,] 5500 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2022-07-25 09:45:36.623  INFO [validationMicroservice,,] 5500 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2022-07-25 09:45:36.637  INFO [validationMicroservice,,] 5500 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2022-07-25 09:45:36.817  INFO [validationMicroservice,,] 5500 --- [main] c.c.p.c.test.ValidationControllerTest    : Started ValidationControllerTest in 8.523 seconds (JVM running for 11.423)
+2022-07-25 09:45:37.439  WARN [validationMicroservice,7317aa1c1148ed47,7317aa1c1148ed47] 5500 --- [main] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+2022-07-25 09:45:37.655  INFO [validationMicroservice,,] 5500 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-07-25 09:45:37.656  INFO [validationMicroservice,,] 5500 --- [SpringApplicationShutdownHook] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2022-07-25 09:45:37.659  INFO [validationMicroservice,,] 5500 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-07-25 09:45:37.663  INFO [validationMicroservice,,] 5500 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-07-25 09:46:48.962  INFO [validationMicroservice,,] 14316 --- [main] c.c.p.c.test.ValidationControllerTest    : Starting ValidationControllerTest using Java 17.0.2 on DESKTOP-IEDHDED with PID 14316 (started by USER in C:\PROJECT_FSE\pension-validation-microservice)
+2022-07-25 09:46:48.963  INFO [validationMicroservice,,] 14316 --- [main] c.c.p.c.test.ValidationControllerTest    : No active profile set, falling back to 1 default profile: "default"
+2022-07-25 09:46:50.089  INFO [validationMicroservice,,] 14316 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-07-25 09:46:50.115  INFO [validationMicroservice,,] 14316 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 16 ms. Found 0 JPA repository interfaces.
+2022-07-25 09:46:50.468  INFO [validationMicroservice,,] 14316 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=4fe2ca6f-6212-37ce-b638-d616d49775e1
+2022-07-25 09:46:51.226  INFO [validationMicroservice,,] 14316 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-07-25 09:46:51.511  INFO [validationMicroservice,,] 14316 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-07-25 09:46:51.602  INFO [validationMicroservice,,] 14316 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-07-25 09:46:51.706  INFO [validationMicroservice,,] 14316 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.9.Final
+2022-07-25 09:46:52.022  INFO [validationMicroservice,,] 14316 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-07-25 09:46:52.299  INFO [validationMicroservice,,] 14316 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-07-25 09:46:52.602  INFO [validationMicroservice,,] 14316 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-07-25 09:46:52.615  INFO [validationMicroservice,,] 14316 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-07-25 09:46:52.846  WARN [validationMicroservice,,] 14316 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-07-25 09:46:53.005  INFO [validationMicroservice,,] 14316 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testDB'
+2022-07-25 09:46:54.971  INFO [validationMicroservice,,] 14316 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2022-07-25 09:46:54.972  INFO [validationMicroservice,,] 14316 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2022-07-25 09:46:54.973  INFO [validationMicroservice,,] 14316 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2022-07-25 09:46:55.692  INFO [validationMicroservice,,] 14316 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2022-07-25 09:46:55.714  INFO [validationMicroservice,,] 14316 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2022-07-25 09:46:55.727  INFO [validationMicroservice,,] 14316 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2022-07-25 09:46:55.870  INFO [validationMicroservice,,] 14316 --- [main] c.c.p.c.test.ValidationControllerTest    : Started ValidationControllerTest in 7.649 seconds (JVM running for 9.367)
+2022-07-25 09:46:56.597  INFO [validationMicroservice,796d604dcc44020f,796d604dcc44020f] 14316 --- [main] c.c.p.controller.ValidationController    : validatePensioner has started
+2022-07-25 09:46:56.958  INFO [validationMicroservice,796d604dcc44020f,796d604dcc44020f] 14316 --- [main] c.c.p.service.PensionValidationService   : STARTED - statusCode 123456789013
+2022-07-25 09:46:56.958  INFO [validationMicroservice,796d604dcc44020f,796d604dcc44020f] 14316 --- [main] c.c.p.service.PensionValidationService   : STARTED - inputBankCharge
+2022-07-25 09:46:56.959  INFO [validationMicroservice,796d604dcc44020f,796d604dcc44020f] 14316 --- [main] c.c.p.service.PensionValidationService   : END - inputBankCharge - public - true
+2022-07-25 09:46:56.959  INFO [validationMicroservice,796d604dcc44020f,796d604dcc44020f] 14316 --- [main] c.c.p.service.PensionValidationService   : STARTED - calculatePension
+2022-07-25 09:46:56.959  INFO [validationMicroservice,796d604dcc44020f,796d604dcc44020f] 14316 --- [main] c.c.p.service.PensionValidationService   : END - calculatePension true 27000.0 27000.0
+2022-07-25 09:46:56.960  INFO [validationMicroservice,796d604dcc44020f,796d604dcc44020f] 14316 --- [main] c.c.p.service.PensionValidationService   : END - statusCode - success 10
+2022-07-25 09:46:56.960  INFO [validationMicroservice,796d604dcc44020f,796d604dcc44020f] 14316 --- [main] c.c.p.controller.ValidationController    : validatePensioner has ended
+2022-07-25 09:46:57.094  INFO [validationMicroservice,,] 14316 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-07-25 09:46:57.095  INFO [validationMicroservice,,] 14316 --- [SpringApplicationShutdownHook] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2022-07-25 09:46:57.099  INFO [validationMicroservice,,] 14316 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-07-25 09:46:57.104  INFO [validationMicroservice,,] 14316 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-07-25 09:47:43.621  INFO [validationMicroservice,,] 12880 --- [main] c.c.p.c.test.ValidationControllerTest    : Starting ValidationControllerTest using Java 17.0.2 on DESKTOP-IEDHDED with PID 12880 (started by USER in C:\PROJECT_FSE\pension-validation-microservice)
+2022-07-25 09:47:43.624  INFO [validationMicroservice,,] 12880 --- [main] c.c.p.c.test.ValidationControllerTest    : No active profile set, falling back to 1 default profile: "default"
+2022-07-25 09:47:44.840  INFO [validationMicroservice,,] 12880 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-07-25 09:47:44.871  INFO [validationMicroservice,,] 12880 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 13 ms. Found 0 JPA repository interfaces.
+2022-07-25 09:47:45.282  INFO [validationMicroservice,,] 12880 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=4fe2ca6f-6212-37ce-b638-d616d49775e1
+2022-07-25 09:47:46.130  INFO [validationMicroservice,,] 12880 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-07-25 09:47:46.381  INFO [validationMicroservice,,] 12880 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-07-25 09:47:46.486  INFO [validationMicroservice,,] 12880 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-07-25 09:47:46.582  INFO [validationMicroservice,,] 12880 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.9.Final
+2022-07-25 09:47:46.815  INFO [validationMicroservice,,] 12880 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-07-25 09:47:47.133  INFO [validationMicroservice,,] 12880 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-07-25 09:47:47.398  INFO [validationMicroservice,,] 12880 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-07-25 09:47:47.409  INFO [validationMicroservice,,] 12880 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-07-25 09:47:47.666  WARN [validationMicroservice,,] 12880 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-07-25 09:47:47.855  INFO [validationMicroservice,,] 12880 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testDB'
+2022-07-25 09:47:50.073  INFO [validationMicroservice,,] 12880 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2022-07-25 09:47:50.073  INFO [validationMicroservice,,] 12880 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2022-07-25 09:47:50.075  INFO [validationMicroservice,,] 12880 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 2 ms
+2022-07-25 09:47:50.853  INFO [validationMicroservice,,] 12880 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2022-07-25 09:47:50.874  INFO [validationMicroservice,,] 12880 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2022-07-25 09:47:50.888  INFO [validationMicroservice,,] 12880 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2022-07-25 09:47:51.041  INFO [validationMicroservice,,] 12880 --- [main] c.c.p.c.test.ValidationControllerTest    : Started ValidationControllerTest in 8.225 seconds (JVM running for 9.911)
+2022-07-25 09:47:51.754  INFO [validationMicroservice,5a9d42d315788d17,5a9d42d315788d17] 12880 --- [main] c.c.p.controller.ValidationController    : validatePensioner has started
+2022-07-25 09:47:51.785  INFO [validationMicroservice,5a9d42d315788d17,5a9d42d315788d17] 12880 --- [main] c.c.p.service.PensionValidationService   : STARTED - statusCode 123456789013
+2022-07-25 09:47:51.785  INFO [validationMicroservice,5a9d42d315788d17,5a9d42d315788d17] 12880 --- [main] c.c.p.service.PensionValidationService   : STARTED - inputBankCharge
+2022-07-25 09:47:51.785  INFO [validationMicroservice,5a9d42d315788d17,5a9d42d315788d17] 12880 --- [main] c.c.p.service.PensionValidationService   : END - inputBankCharge - public - true
+2022-07-25 09:47:51.785  INFO [validationMicroservice,5a9d42d315788d17,5a9d42d315788d17] 12880 --- [main] c.c.p.service.PensionValidationService   : STARTED - calculatePension
+2022-07-25 09:47:51.785  INFO [validationMicroservice,5a9d42d315788d17,5a9d42d315788d17] 12880 --- [main] c.c.p.service.PensionValidationService   : END - calculatePension true 27000.0 27000.0
+2022-07-25 09:47:51.786  INFO [validationMicroservice,5a9d42d315788d17,5a9d42d315788d17] 12880 --- [main] c.c.p.service.PensionValidationService   : END - statusCode - success 10
+2022-07-25 09:47:51.786  INFO [validationMicroservice,5a9d42d315788d17,5a9d42d315788d17] 12880 --- [main] c.c.p.controller.ValidationController    : validatePensioner has ended
+2022-07-25 09:47:51.879  WARN [validationMicroservice,0ff588842bf0da59,0ff588842bf0da59] 12880 --- [main] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+2022-07-25 09:47:51.902  INFO [validationMicroservice,,] 12880 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-07-25 09:47:51.903  INFO [validationMicroservice,,] 12880 --- [SpringApplicationShutdownHook] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2022-07-25 09:47:51.906  INFO [validationMicroservice,,] 12880 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-07-25 09:47:51.910  INFO [validationMicroservice,,] 12880 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-07-25 09:53:35.264  INFO [validationMicroservice,,] 12208 --- [main] c.c.p.c.test.ValidationControllerTest    : Starting ValidationControllerTest using Java 17.0.2 on DESKTOP-IEDHDED with PID 12208 (started by USER in C:\PROJECT_FSE\pension-validation-microservice)
+2022-07-25 09:53:35.268  INFO [validationMicroservice,,] 12208 --- [main] c.c.p.c.test.ValidationControllerTest    : No active profile set, falling back to 1 default profile: "default"
+2022-07-25 09:53:37.655  INFO [validationMicroservice,,] 12208 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-07-25 09:53:37.688  INFO [validationMicroservice,,] 12208 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 16 ms. Found 0 JPA repository interfaces.
+2022-07-25 09:53:38.271  INFO [validationMicroservice,,] 12208 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=4fe2ca6f-6212-37ce-b638-d616d49775e1
+2022-07-25 09:53:39.640  INFO [validationMicroservice,,] 12208 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-07-25 09:53:40.064  INFO [validationMicroservice,,] 12208 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-07-25 09:53:40.231  INFO [validationMicroservice,,] 12208 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-07-25 09:53:40.375  INFO [validationMicroservice,,] 12208 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.9.Final
+2022-07-25 09:53:40.782  INFO [validationMicroservice,,] 12208 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-07-25 09:53:41.178  INFO [validationMicroservice,,] 12208 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-07-25 09:53:41.621  INFO [validationMicroservice,,] 12208 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-07-25 09:53:41.641  INFO [validationMicroservice,,] 12208 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-07-25 09:53:42.059  WARN [validationMicroservice,,] 12208 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-07-25 09:53:42.388  INFO [validationMicroservice,,] 12208 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testDB'
+2022-07-25 09:53:45.412  INFO [validationMicroservice,,] 12208 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2022-07-25 09:53:45.413  INFO [validationMicroservice,,] 12208 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2022-07-25 09:53:45.415  INFO [validationMicroservice,,] 12208 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 2 ms
+2022-07-25 09:53:46.494  INFO [validationMicroservice,,] 12208 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2022-07-25 09:53:46.538  INFO [validationMicroservice,,] 12208 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2022-07-25 09:53:46.556  INFO [validationMicroservice,,] 12208 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2022-07-25 09:53:46.769  INFO [validationMicroservice,,] 12208 --- [main] c.c.p.c.test.ValidationControllerTest    : Started ValidationControllerTest in 12.679 seconds (JVM running for 15.355)
+2022-07-25 09:53:48.003  INFO [validationMicroservice,6f59df7d14f4cb14,6f59df7d14f4cb14] 12208 --- [main] c.c.p.controller.ValidationController    : validatePensioner has started
+2022-07-25 09:53:48.045  INFO [validationMicroservice,6f59df7d14f4cb14,6f59df7d14f4cb14] 12208 --- [main] c.c.p.service.PensionValidationService   : STARTED - statusCode 123456789013
+2022-07-25 09:53:48.046  INFO [validationMicroservice,6f59df7d14f4cb14,6f59df7d14f4cb14] 12208 --- [main] c.c.p.service.PensionValidationService   : STARTED - inputBankCharge
+2022-07-25 09:53:48.046  INFO [validationMicroservice,6f59df7d14f4cb14,6f59df7d14f4cb14] 12208 --- [main] c.c.p.service.PensionValidationService   : END - inputBankCharge - public - true
+2022-07-25 09:53:48.046  INFO [validationMicroservice,6f59df7d14f4cb14,6f59df7d14f4cb14] 12208 --- [main] c.c.p.service.PensionValidationService   : STARTED - calculatePension
+2022-07-25 09:53:48.046  INFO [validationMicroservice,6f59df7d14f4cb14,6f59df7d14f4cb14] 12208 --- [main] c.c.p.service.PensionValidationService   : END - calculatePension true 27000.0 27000.0
+2022-07-25 09:53:48.046  INFO [validationMicroservice,6f59df7d14f4cb14,6f59df7d14f4cb14] 12208 --- [main] c.c.p.service.PensionValidationService   : END - statusCode - success 10
+2022-07-25 09:53:48.047  INFO [validationMicroservice,6f59df7d14f4cb14,6f59df7d14f4cb14] 12208 --- [main] c.c.p.controller.ValidationController    : validatePensioner has ended
+2022-07-25 09:53:48.114  WARN [validationMicroservice,14012f9dacc086ca,14012f9dacc086ca] 12208 --- [main] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+2022-07-25 09:53:48.182  INFO [validationMicroservice,cdb7ed10579974e9,cdb7ed10579974e9] 12208 --- [main] c.c.p.controller.ValidationController    : validatePensioner has started
+2022-07-25 09:53:48.299 ERROR [validationMicroservice,cdb7ed10579974e9,cdb7ed10579974e9] 12208 --- [main] c.c.p.controller.ValidationController    : Pension amount is wrong
+2022-07-25 09:53:48.364  INFO [validationMicroservice,,] 12208 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-07-25 09:53:48.364  INFO [validationMicroservice,,] 12208 --- [SpringApplicationShutdownHook] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2022-07-25 09:53:48.369  INFO [validationMicroservice,,] 12208 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-07-25 09:53:48.374  INFO [validationMicroservice,,] 12208 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-07-25 09:55:29.088  INFO [validationMicroservice,,] 14724 --- [main] c.c.p.c.test.ValidationControllerTest    : Starting ValidationControllerTest using Java 17.0.2 on DESKTOP-IEDHDED with PID 14724 (started by USER in C:\PROJECT_FSE\pension-validation-microservice)
+2022-07-25 09:55:29.092  INFO [validationMicroservice,,] 14724 --- [main] c.c.p.c.test.ValidationControllerTest    : No active profile set, falling back to 1 default profile: "default"
+2022-07-25 09:55:30.839  INFO [validationMicroservice,,] 14724 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-07-25 09:55:30.873  INFO [validationMicroservice,,] 14724 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 17 ms. Found 0 JPA repository interfaces.
+2022-07-25 09:55:31.420  INFO [validationMicroservice,,] 14724 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=4fe2ca6f-6212-37ce-b638-d616d49775e1
+2022-07-25 09:55:32.688  INFO [validationMicroservice,,] 14724 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-07-25 09:55:33.041  INFO [validationMicroservice,,] 14724 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-07-25 09:55:33.177  INFO [validationMicroservice,,] 14724 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-07-25 09:55:33.326  INFO [validationMicroservice,,] 14724 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.9.Final
+2022-07-25 09:55:33.712  INFO [validationMicroservice,,] 14724 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-07-25 09:55:34.081  INFO [validationMicroservice,,] 14724 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-07-25 09:55:34.490  INFO [validationMicroservice,,] 14724 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-07-25 09:55:34.507  INFO [validationMicroservice,,] 14724 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-07-25 09:55:34.850  WARN [validationMicroservice,,] 14724 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-07-25 09:55:35.093  INFO [validationMicroservice,,] 14724 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testDB'
+2022-07-25 09:55:38.150  INFO [validationMicroservice,,] 14724 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2022-07-25 09:55:38.150  INFO [validationMicroservice,,] 14724 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2022-07-25 09:55:38.153  INFO [validationMicroservice,,] 14724 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 3 ms
+2022-07-25 09:55:39.318  INFO [validationMicroservice,,] 14724 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2022-07-25 09:55:39.350  INFO [validationMicroservice,,] 14724 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2022-07-25 09:55:39.373  INFO [validationMicroservice,,] 14724 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2022-07-25 09:55:39.661  INFO [validationMicroservice,,] 14724 --- [main] c.c.p.c.test.ValidationControllerTest    : Started ValidationControllerTest in 11.812 seconds (JVM running for 14.28)
+2022-07-25 09:55:40.663  INFO [validationMicroservice,71e0db69fdf0185b,71e0db69fdf0185b] 14724 --- [main] c.c.p.controller.ValidationController    : validatePensioner has started
+2022-07-25 09:55:40.710  INFO [validationMicroservice,71e0db69fdf0185b,71e0db69fdf0185b] 14724 --- [main] c.c.p.service.PensionValidationService   : STARTED - statusCode 123456789013
+2022-07-25 09:55:40.711  INFO [validationMicroservice,71e0db69fdf0185b,71e0db69fdf0185b] 14724 --- [main] c.c.p.service.PensionValidationService   : STARTED - inputBankCharge
+2022-07-25 09:55:40.711  INFO [validationMicroservice,71e0db69fdf0185b,71e0db69fdf0185b] 14724 --- [main] c.c.p.service.PensionValidationService   : END - inputBankCharge - public - true
+2022-07-25 09:55:40.712  INFO [validationMicroservice,71e0db69fdf0185b,71e0db69fdf0185b] 14724 --- [main] c.c.p.service.PensionValidationService   : STARTED - calculatePension
+2022-07-25 09:55:40.712  INFO [validationMicroservice,71e0db69fdf0185b,71e0db69fdf0185b] 14724 --- [main] c.c.p.service.PensionValidationService   : END - calculatePension true 27000.0 27000.0
+2022-07-25 09:55:40.712  INFO [validationMicroservice,71e0db69fdf0185b,71e0db69fdf0185b] 14724 --- [main] c.c.p.service.PensionValidationService   : END - statusCode - success 10
+2022-07-25 09:55:40.712  INFO [validationMicroservice,71e0db69fdf0185b,71e0db69fdf0185b] 14724 --- [main] c.c.p.controller.ValidationController    : validatePensioner has ended
+2022-07-25 09:55:40.781  WARN [validationMicroservice,947607c50a7d952e,947607c50a7d952e] 14724 --- [main] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+2022-07-25 09:55:40.843  INFO [validationMicroservice,,] 14724 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-07-25 09:55:40.844  INFO [validationMicroservice,,] 14724 --- [SpringApplicationShutdownHook] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2022-07-25 09:55:40.855  INFO [validationMicroservice,,] 14724 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-07-25 09:55:40.860  INFO [validationMicroservice,,] 14724 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-07-25 11:53:09.641  INFO [validationMicroservice,,] 19020 --- [restartedMain] PensionValidationMicroserviceApplication : Starting PensionValidationMicroserviceApplication using Java 17.0.2 on DESKTOP-IEDHDED with PID 19020 (C:\PROJECT_FSE\pension-validation-microservice\target\classes started by USER in C:\PROJECT_FSE\pension-validation-microservice)
+2022-07-25 11:53:09.658  INFO [validationMicroservice,,] 19020 --- [restartedMain] PensionValidationMicroserviceApplication : No active profile set, falling back to 1 default profile: "default"
+2022-07-25 11:53:10.209  INFO [validationMicroservice,,] 19020 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-07-25 11:53:10.212  INFO [validationMicroservice,,] 19020 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-07-25 11:53:17.055  INFO [validationMicroservice,,] 19020 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-07-25 11:53:17.242  INFO [validationMicroservice,,] 19020 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 47 ms. Found 0 JPA repository interfaces.
+2022-07-25 11:53:19.313  INFO [validationMicroservice,,] 19020 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=9f0eb888-e2d4-3bcd-bce4-f201d594dbe9
+2022-07-25 11:53:25.858  INFO [validationMicroservice,,] 19020 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8000 (http)
+2022-07-25 11:53:25.918  INFO [validationMicroservice,,] 19020 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-25 11:53:25.920  INFO [validationMicroservice,,] 19020 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-25 11:53:26.813  INFO [validationMicroservice,,] 19020 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-07-25 11:53:26.815  INFO [validationMicroservice,,] 19020 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 16600 ms
+2022-07-25 11:53:27.177  INFO [validationMicroservice,,] 19020 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-07-25 11:53:28.061  INFO [validationMicroservice,,] 19020 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-07-25 11:53:28.103  INFO [validationMicroservice,,] 19020 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testDB'
+2022-07-25 11:53:30.378  INFO [validationMicroservice,,] 19020 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-07-25 11:53:30.676  INFO [validationMicroservice,,] 19020 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.9.Final
+2022-07-25 11:53:31.576  INFO [validationMicroservice,,] 19020 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-07-25 11:53:32.033  INFO [validationMicroservice,,] 19020 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-07-25 11:53:32.879  INFO [validationMicroservice,,] 19020 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-07-25 11:53:32.912  INFO [validationMicroservice,,] 19020 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-07-25 11:53:33.689  WARN [validationMicroservice,,] 19020 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-07-25 11:53:34.072  WARN [validationMicroservice,,] 19020 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2022-07-25 11:53:39.379  INFO [validationMicroservice,,] 19020 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8000 (http) with context path ''
+2022-07-25 11:53:39.882  INFO [validationMicroservice,,] 19020 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2022-07-25 11:53:39.924  INFO [validationMicroservice,,] 19020 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2022-07-25 11:53:39.952  INFO [validationMicroservice,,] 19020 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2022-07-25 11:53:40.311  INFO [validationMicroservice,,] 19020 --- [restartedMain] PensionValidationMicroserviceApplication : Started PensionValidationMicroserviceApplication in 34.541 seconds (JVM running for 38.402)
+2022-07-25 11:55:01.748  INFO [validationMicroservice,d849220bdb99378b,2db263617008013a] 19020 --- [http-nio-8000-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-25 11:55:01.749  INFO [validationMicroservice,d849220bdb99378b,2db263617008013a] 19020 --- [http-nio-8000-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-07-25 11:55:01.755  INFO [validationMicroservice,d849220bdb99378b,2db263617008013a] 19020 --- [http-nio-8000-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+2022-07-25 11:55:02.352  INFO [validationMicroservice,d849220bdb99378b,2db263617008013a] 19020 --- [http-nio-8000-exec-1] c.c.p.controller.ValidationController    : validatePensioner has started
+2022-07-25 11:55:02.405  INFO [validationMicroservice,d849220bdb99378b,2db263617008013a] 19020 --- [http-nio-8000-exec-1] c.c.p.service.PensionValidationService   : STARTED - statusCode 123456789013
+2022-07-25 11:55:02.405  INFO [validationMicroservice,d849220bdb99378b,2db263617008013a] 19020 --- [http-nio-8000-exec-1] c.c.p.service.PensionValidationService   : STARTED - inputBankCharge
+2022-07-25 11:55:02.406  INFO [validationMicroservice,d849220bdb99378b,2db263617008013a] 19020 --- [http-nio-8000-exec-1] c.c.p.service.PensionValidationService   : END - inputBankCharge - public - true

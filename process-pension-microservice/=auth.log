@@ -1164,3 +1164,5 @@
 2022-07-25 11:54:46.645  INFO [ProcessPensionService,6fd03bed68d4614a,ad845cd0ff96db00] 14296 --- [http-nio-9200-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
 2022-07-25 11:54:46.646  INFO [ProcessPensionService,6fd03bed68d4614a,ad845cd0ff96db00] 14296 --- [http-nio-9200-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
 2022-07-25 11:54:46.649  INFO [ProcessPensionService,6fd03bed68d4614a,ad845cd0ff96db00] 14296 --- [http-nio-9200-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2022-07-25 11:55:20.996  INFO [ProcessPensionService,54c88f0e36fda801,0ecbf84b880164d7] 14296 --- [http-nio-9200-exec-2] c.c.p.c.ProcessPensionController         : allDetail has started
+2022-07-25 11:55:20.997  INFO [ProcessPensionService,54c88f0e36fda801,0ecbf84b880164d7] 14296 --- [http-nio-9200-exec-2] c.c.p.c.ProcessPensionController         : allDetail has ended

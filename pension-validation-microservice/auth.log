@@ -321,3 +321,7 @@ javax.servlet.ServletException: Circular view path [pensionStatus]: would dispat
 2022-07-25 11:55:02.405  INFO [validationMicroservice,d849220bdb99378b,2db263617008013a] 19020 --- [http-nio-8000-exec-1] c.c.p.service.PensionValidationService   : STARTED - statusCode 123456789013
 2022-07-25 11:55:02.405  INFO [validationMicroservice,d849220bdb99378b,2db263617008013a] 19020 --- [http-nio-8000-exec-1] c.c.p.service.PensionValidationService   : STARTED - inputBankCharge
 2022-07-25 11:55:02.406  INFO [validationMicroservice,d849220bdb99378b,2db263617008013a] 19020 --- [http-nio-8000-exec-1] c.c.p.service.PensionValidationService   : END - inputBankCharge - public - true
+2022-07-25 11:55:02.406  INFO [validationMicroservice,d849220bdb99378b,2db263617008013a] 19020 --- [http-nio-8000-exec-1] c.c.p.service.PensionValidationService   : STARTED - calculatePension
+2022-07-25 11:55:02.406  INFO [validationMicroservice,d849220bdb99378b,2db263617008013a] 19020 --- [http-nio-8000-exec-1] c.c.p.service.PensionValidationService   : END - calculatePension true 27000.0 27000.0
+2022-07-25 11:55:02.407  INFO [validationMicroservice,d849220bdb99378b,2db263617008013a] 19020 --- [http-nio-8000-exec-1] c.c.p.service.PensionValidationService   : END - statusCode - success 10
+2022-07-25 11:55:02.407  INFO [validationMicroservice,d849220bdb99378b,2db263617008013a] 19020 --- [http-nio-8000-exec-1] c.c.p.controller.ValidationController    : validatePensioner has ended

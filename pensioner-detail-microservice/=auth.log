@@ -518,3 +518,4 @@
 2022-07-25 11:54:47.334  INFO [PensionerDetailService,6fd03bed68d4614a,6ec84a9a1a6f4a85] 21452 --- [http-nio-9100-exec-1] c.c.p.c.PensionerDetailController        : getPensionerDetail has ended
 2022-07-25 11:55:02.387  INFO [PensionerDetailService,d849220bdb99378b,0d76e05c8f54330f] 21452 --- [http-nio-9100-exec-2] c.c.p.c.PensionerDetailController        : getPensionerDetail has ended
 2022-07-25 11:55:21.004  INFO [PensionerDetailService,54c88f0e36fda801,673ec9b73cff4a60] 21452 --- [http-nio-9100-exec-5] c.c.p.c.PensionerDetailController        : allDetails has started
+2022-07-25 11:55:21.005  INFO [PensionerDetailService,54c88f0e36fda801,673ec9b73cff4a60] 21452 --- [http-nio-9100-exec-5] c.c.p.c.PensionerDetailController        : allDetails has ended

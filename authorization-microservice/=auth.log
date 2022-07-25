@@ -597,3 +597,6 @@
 2022-07-25 11:55:02.365  INFO [authorizationService,d849220bdb99378b,9dc1ee426b71e4cc] 16084 --- [http-nio-9090-exec-10] c.c.service.CustomUserDetailService      : loadUserByUsername has started
 2022-07-25 11:55:02.368  INFO [authorizationService,d849220bdb99378b,9dc1ee426b71e4cc] 16084 --- [http-nio-9090-exec-10] c.c.service.CustomUserDetailService      : loadUserByUsername has ended
 2022-07-25 11:55:02.373  INFO [authorizationService,d849220bdb99378b,9dc1ee426b71e4cc] 16084 --- [http-nio-9090-exec-10] c.c.controller.AuthorizationController   : authorization has started
+2022-07-25 11:55:02.374  INFO [authorizationService,d849220bdb99378b,9dc1ee426b71e4cc] 16084 --- [http-nio-9090-exec-10] c.c.service.CustomUserDetailService      : loadUserByUsername has started
+2022-07-25 11:55:02.376  INFO [authorizationService,d849220bdb99378b,9dc1ee426b71e4cc] 16084 --- [http-nio-9090-exec-10] c.c.service.CustomUserDetailService      : loadUserByUsername has ended
+2022-07-25 11:55:02.381  INFO [authorizationService,d849220bdb99378b,9dc1ee426b71e4cc] 16084 --- [http-nio-9090-exec-10] c.c.controller.AuthorizationController   : authorization has ended

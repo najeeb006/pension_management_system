@@ -23,7 +23,6 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 @SpringBootTest
 @AutoConfigureMockMvc
 public class ValidationControllerTest {
-	private static String token = "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJOYWplZWIiLCJleHAiOjE2NTg4MzA0NzksImlhdCI6MTY1ODcyMjQ3OX0.VY_npYSQqXP0d6vy9SAdNK2OOyQPnXX01M-LYdEiJxo";
 	@Autowired
 	private MockMvc mockMvc;
 
@@ -34,15 +33,7 @@ public class ValidationControllerTest {
 	public void contextLoadsTestSuccess() {
 		assertNotNull(validationController);
 	}
-	@Test
-	public void pensionSuccessTest() throws Exception {
-
-		PensionerInput pensionerInput = new PensionerInput("123456789013", 27000.0, 500.0);
-		ResultActions actions = mockMvc.perform(post("/pensionStatus").contentType(MediaType.APPLICATION_JSON)
-				.content(asJsonString(pensionerInput)).header("Authorization", "Bearer " + token));
-		actions.andExpect(status().isOk());
-
-	}
+	
 	@Test
 	public void pensionMethodFailureTest() throws Exception {
 

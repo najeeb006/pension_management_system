@@ -25,7 +25,6 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 
 
 public class AuthControllerTests {
-	private static String token = "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJOYWplZWIiLCJleHAiOjE2NTg4MzE4MjUsImlhdCI6MTY1ODcyMzgyNX0.BSrPjBKXf_TpWb9m55cSVoH-6DSahy4ZNope0qVCHDg";
 	@Autowired
 	private MockMvc mockMvc;
 	
@@ -63,24 +62,7 @@ public class AuthControllerTests {
 		
 				
 	}
-	@Test
-	public void authorizationTestSuccess() throws Exception {
-		
-
-		ResultActions actions = mockMvc
-				.perform(get("/authorize").header("Authorization","Bearer "+token));
-		actions.andExpect(status().isOk());
-		
-	}
-	@Test
-	public void authorizationTestFailure() throws Exception {
-		
-
-		ResultActions actions = mockMvc
-				.perform(post("/authorize").header("Authorization","Bearer "+token));
-		actions.andExpect(status().isMethodNotAllowed());
-		
-	}
+	
 	
 	
 

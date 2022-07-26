@@ -18,7 +18,7 @@ phases:
       - echo build process finished, we should uplload to S3 now
       - cd dist/$APP_NAME
       - ls -la
-      - aws s3 sync . s3://pms-001 --delete
+      - aws s3 sync . s3://pension-management-system --delete
 artifacts:
     files:
         - '**/*'

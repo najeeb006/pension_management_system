@@ -3,7 +3,7 @@ Resources:
   - TargetService:
       Type: AWS::ECS::Service
       Properties:
-        TaskDefinition: "arn:aws:ecs:ap-south-1:555918697305:task-definition/pensioner-detail-microservice:32"
+        TaskDefinition: "arn:aws:ecs:us-east-1:555918697305:task-definition/microservices:1"
         LoadBalancerInfo:
           ContainerName: "pensioner-detail-microservice"
           ContainerPort: "80"

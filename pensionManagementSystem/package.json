@@ -7,7 +7,7 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "aws-deploy": "aws s3 sync dist/pension-management-system/ s3://pms-001"
+    "aws-deploy": "aws s3 sync dist/pension-management-system/ s3://pension-management-system"
   },
   "private": true,
   "dependencies": {

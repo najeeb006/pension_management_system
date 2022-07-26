@@ -5,7 +5,10 @@ import org.junit.jupiter.api.Test;
 import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.mockito.Mockito;
+
 import org.springframework.boot.test.context.SpringBootTest;
+
+
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.junit.jupiter.api.Assertions.assertNotNull;
 import static org.mockito.Mockito.verify;
@@ -42,6 +45,8 @@ public class CustomUserDetailServiceTest {
 		assertThat(service.loadUserByUsername("admin")).isNotNull();
 		verify(userRepository, Mockito.times(1)).findByUserName("admin");
 	}
+	
+
 	
 	
 
